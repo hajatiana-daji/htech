@@ -1,0 +1,72 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dégradés -->
+  <defs>
+    <linearGradient id="gradCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2bb9cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a9db5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9bc53d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7fb034;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fond du H - Partie Gauche (Cyan) -->
+  <path d="M 15 25 
+           Q 15 15, 25 15 
+           L 45 15 
+           L 45 105 
+           Q 45 110, 40 110 
+           L 20 110 
+           Q 15 110, 15 105 Z" 
+        fill="url(#gradCyan)"/>
+  
+  <!-- Fond du H - Partie Droite (Vert) -->
+  <path d="M 75 15 
+           L 95 15 
+           Q 105 15, 105 25 
+           L 105 105 
+           Q 105 110, 100 110 
+           L 80 110 
+           L 75 105 Z" 
+        fill="url(#gradGreen)"/>
+  
+  <!-- Barre centrale blanche du H -->
+  <rect x="42" y="52" width="25" height="16" rx="3" fill="white"/>
+  
+  <!-- Circuits imprimés simplifiés -->
+  <g stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.7">
+    <!-- Circuits gauche -->
+    <circle cx="35" cy="35" r="2" fill="white"/>
+    <line x1="35" y1="37" x2="35" y2="45"/>
+    <line x1="35" y1="45" x2="40" y2="45"/>
+    <circle cx="40" cy="45" r="2" fill="white"/>
+    
+    <circle cx="25" cy="50" r="2" fill="white"/>
+    <line x1="27" y1="50" x2="35" y2="50"/>
+    
+    <!-- Circuits droite -->
+    <circle cx="85" cy="35" r="2" fill="white"/>
+    <line x1="85" y1="37" x2="85" y2="45"/>
+    <line x1="80" y1="45" x2="85" y2="45"/>
+    <circle cx="80" cy="45" r="2" fill="white"/>
+    
+    <circle cx="95" cy="70" r="2" fill="white"/>
+    <line x1="90" y1="70" x2="93" y2="70"/>
+  </g>
+  
+  <!-- Texte HTech -->
+  <text x="125" y="75" font-family="Arial, sans-serif" font-weight="bold" font-size="42">
+    <tspan fill="#2bb9cc">HT</tspan><tspan fill="#9bc53d">ech</tspan>
+  </text>
+  
+  <!-- Sous-titre MADAGASCAR -->
+  <text x="127" y="95" font-family="Arial, sans-serif" font-size="12" fill="#888888" letter-spacing="2">
+    MADAGASCAR
+  </text>
+  
+  <!-- Tagline -->
+  <text x="127" y="108" font-family="Arial, sans-serif" font-size="8" fill="#aaaaaa" letter-spacing="1">
+    APPLICATIONS MOBILES &amp; WEB SUR MESURE
+  </text>
+</svg>
