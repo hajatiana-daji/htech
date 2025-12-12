@@ -19,7 +19,7 @@ export default function ServicesSection({ mainServices }: Props) {
   }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gradient-to-b from-gray-800/90 via-gray-700/80 to-gray-800/90 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-50 to-emerald-50 rounded-full mb-4">

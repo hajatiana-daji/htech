@@ -3,8 +3,8 @@ import { Smartphone, Globe, ExternalLink, Github } from 'lucide-react'
 import { projects } from '@/data/ProjectData';
 
 export const metadata: Metadata = {
-  title: 'Portfolio - HTech | Mes Réalisations',
-  description: 'Découvrez mes projets de développement mobile Android et web. Applications e-commerce, gestion d\'entreprise, fitness et plus encore.',
+  title: 'Portfolio - HTech | Nos Réalisations',
+  description: 'Découvrez nos projets de développement mobile Android et web. Applications e-commerce, gestion d\'entreprise, fitness et plus encore.',
   keywords: 'portfolio, projets, réalisations, applications android, sites web, Madagascar',
 }
 
@@ -28,7 +28,7 @@ export default function Portfolio() {
   return (
     <div className="container mx-auto px-4 py-20">
       <div className="text-center mb-16">
-        <h1 className="text-5xl font-bold text-gray-900 mb-4">Mes Réalisations</h1>
+        <h1 className="text-5xl font-bold text-gray-900 mb-4">Nos Réalisations</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Découvrez une sélection de projets que j'ai conçus et développés pour transformer des idées en solutions digitales performantes
         </p>
@@ -90,7 +90,7 @@ export default function Portfolio() {
 
       {/* Testimonial Section */}
       <div className="bg-gradient-to-br from-slate-50 to-cyan-50 rounded-3xl p-12 mb-20">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Ce que disent mes clients</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Ce que disent nos clients</h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center mb-4">

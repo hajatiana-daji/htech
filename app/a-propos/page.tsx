@@ -236,7 +236,7 @@ export default function APropos() {
           {/* Values - Premium */}
           <div className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Mes Valeurs</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Nos Valeurs</h2>
               <p className="text-xl text-gray-600">Les piliers de chaque collaboration</p>
             </div>
             <div className="grid lg:grid-cols-3 gap-8">
@@ -256,7 +256,7 @@ export default function APropos() {
           {/* Skills - Modern Design */}
           <div className="bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 lg:p-12 shadow-2xl mb-20 border border-gray-200">
             <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Mes Compétences</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Nos Compétences</h2>
               <p className="text-xl text-gray-600">Un mix équilibré entre technique et leadership</p>
             </div>
 
@@ -334,7 +334,7 @@ export default function APropos() {
                 href="/contact" 
                 className="inline-flex items-center gap-3 bg-white text-cyan-700 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl"
               >
-                Contactez-moi maintenant
+                Contactez-nous maintenant
                 <ArrowRight size={24} />
               </Link>
               <p className="mt-6 text-cyan-100">Réponse sous 24h · Première consultation gratuite</p>

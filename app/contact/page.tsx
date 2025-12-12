@@ -85,7 +85,7 @@ export default function Contact() {
   return (
     <div className="container mx-auto px-4 py-20">
       <div className="text-center mb-16">
-        <h1 className="text-5xl font-bold text-gray-900 mb-4">Contactez-moi</h1>
+        <h1 className="text-5xl font-bold text-gray-900 mb-4">Contactez-nous</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Un projet en tête ? Une question ? N'hésitez pas à me contacter. Je vous réponds sous 24h maximum.
         </p>
@@ -145,7 +145,7 @@ export default function Contact() {
 
           {/* Social Links */}
           <div className="bg-white rounded-2xl p-8 shadow-lg">
-            <h3 className="text-xl font-bold mb-4 text-gray-900">Suivez-moi</h3>
+            <h3 className="text-xl font-bold mb-4 text-gray-900">Suivez-nous</h3>
             <div className="flex gap-4">
               <a href="#" className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-emerald-500 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all">
                 <Linkedin size={24} />
@@ -163,7 +163,7 @@ export default function Contact() {
         {/* Right Column - Contact Form */}
         <div className="lg:col-span-3">
           <div className="bg-white rounded-2xl p-8 md:p-10 shadow-xl">
-            <h3 className="text-3xl font-bold mb-2 text-gray-900">Envoyez-moi un message</h3>
+            <h3 className="text-3xl font-bold mb-2 text-gray-900">Envoyez-nous un message</h3>
             <p className="text-gray-600 mb-8">
               Remplissez le formulaire ci-dessous et je reviendrai vers vous dans les plus brefs délais
             </p>
